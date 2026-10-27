@@ -1,0 +1,47 @@
+# Environment files
+.env
+.env.*
+!.env.example
+.credentials/
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Local runtime outputs
+data/
+recordings/
+transcripts/
+models/
+runs/
+evaluation/review/
+samples/
+*.log
+
+# Local media inputs
+*.mkv
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
